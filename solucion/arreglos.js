@@ -124,9 +124,11 @@ console.log(arreglo);
 
 // Investigación #5: Métodos Inmutables (Immutable Methods)
 // 1. Define qué es un método inmutable y por qué son importantes.
+
+// Son los que no modifican el arreglo original, sino que devuelven uno nuevo o un valor derivado.
 /**
  * Escribe tu explicación aquí:
- * Un método inmutable es aquel que... Son importantes porque...
+ * Un método inmutable es aquel que se puede modificar sin afectar el arreglo principal, son importantes porque me permite trabajar con "una copia" de los arreglos originales, lo que evita efectos secundarios, mejor legibilidad, facil mantenimiento
  */
 
 // 2. Investiga y aplica 5 métodos de arreglos que sean inmutables.

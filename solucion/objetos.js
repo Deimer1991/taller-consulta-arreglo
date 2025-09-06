@@ -1,23 +1,47 @@
 // Taller de Investigación sobre Objetos en JavaScript
-// Nombre del estudiante: [Tu nombre completo aquí]
+// Nombre del estudiante: [Deimer Dario Lara Rangel]
 
 // Parte 1: El Mundo de los Objetos
 
 // Investigación #1: Objeto Literal
 // 1. Define qué es un objeto literal en JavaScript.
+
+//Es una forma directa y sencilla de crear un objeto usando llaves {} para definir sus propiedades y valores
+
 /**
  * Escribe tu explicación aquí:
- * Un objeto literal es...
+ * una forma rápida de agrupar datos y funciones relacionados en una sola estructura.
  */
 
 // 2. Muestra la sintaxis básica para crear un objeto literal.
 // Escribe el código aquí
 
+let persona = {
+  nombre: "Deimer",
+  edad: 34,
+  ciudad: "Bello"
+};
+
 // 3. Crea un objeto literal llamado `computador` con 5 propiedades.
 // Escribe el código aquí
 
+let computador = {
+  marca: "Dell",
+  procesador: "Intel Core i7",
+  ram: "16GB",
+  almacenamiento: "512GB SSD",
+  pantalla: "15.6 pulgadas",
+};
+
 
 // Muestra el objeto `computador` en la consola.
+
+console.log(computador.marca);
+console.log(computador.procesador);
+console.log(computador.ram);
+console.log(computador.almacenamiento);
+console.log(computador.pantalla);
+
 
 
 // Investigación #2: Objeto por Constructor
